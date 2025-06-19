@@ -28,6 +28,9 @@ C:\xampp\htdocs\MessagesWall
 composer install
 
 # Настройка окружения
+cp .env.example .env
+
+
 APP_URL=http://localhost/PHPProject/public
 
 DB_CONNECTION=mysql
